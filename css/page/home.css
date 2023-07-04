@@ -1,0 +1,251 @@
+.main {
+    margin-top: 120px;
+    padding-bottom: 40px;
+}
+
+.main .hero {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    align-items: center;
+    background: rgb(11,48,66);
+    background: radial-gradient(circle,
+    rgb(11,48,66) 0%,
+            rgb(11,48,66) 100%);
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+.main .hero .avatar {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+}
+
+.main .hero .avatar img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--linear);
+    object-fit: cover;
+    border-radius: 100rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+.main .hero .name {
+    color: #fff;
+    letter-spacing: 1.6px;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.main .hero .name h3 {
+    font-size: 26px;
+}
+
+.main .hero .name .sub-name {
+    margin: 10px 0;
+}
+
+.main .hero .icon a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+/* Css phần About */
+.main .about-section {
+    width: 80%;
+    margin: 30px auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background: rgb(11,48,66);
+    background: radial-gradient(circle,
+    rgb(11,48,66) 0%,
+            rgb(11,48,66) 100%);
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+.main .about-section a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.main .about-section .about-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.main .about-section .about-all .avatar-about {
+    width: 50%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid;
+    padding-right: 35px;
+}
+
+.main .about-section .about-all .avatar-about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main .about-section .about-all .avatar-about p {
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.main .about-section .about-all .infor {
+    width: 45%;
+}
+
+.main .about-section .about-all .infor li {
+    list-style: none;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    margin: 20px 0;
+    padding-bottom: 15px;
+}
+
+.main .about-section .infor li a,
+.main .about-section .infor li p {
+    display: flex;
+    align-items: center;
+}
+
+.main .about-section li i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.main .about-section .fullname {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* SKILL CSS */
+.main .skills-section {
+    width: 80%;
+    margin: 30px auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background: rgb(11,48,66);
+    background: radial-gradient(circle,
+    rgb(11,48,66) 0%,
+            rgb(11,48,66) 100%);
+    border-radius: 10px;
+    color: #fff;
+}
+.list-skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.list-skill .skill-item{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+    margin-bottom: 20px;
+}
+
+.list-skill .skill-item i {
+    color: #0AA1DD;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.list-skill .skill-item div{
+    width: 123px;
+}
+/* CSS PHẦN activity-section */
+
+.activity-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.activity-list .activity-item {
+    width: calc(90%/3);
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    margin: 5px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background: rgb(11,48,66);
+    background: radial-gradient(circle,
+    rgb(11,48,66) 0%,
+            rgb(11,48,66) 100%);
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 20px
+    ;
+}
+
+.activity-list .activity-item img {
+    border-radius: 5px;
+    width: 100%;
+    height: 172px;
+    object-fit: cover;
+}
+
+.activity-list .activity-item p {
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* css phần tóm tắt */
+.summary-section {
+    width: 80%;
+    margin: 30px auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background: rgb(11,48,66);
+    background: radial-gradient(circle,
+    rgb(11,48,66) 0%,
+            rgb(11,48,66) 100%);
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+}
+
+.summary-item {
+    margin: 20px;
+}
+
+.summary-item .sub-heading {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.summary-item b,
+.summary-item p {
+    line-height: 1.6;
+}

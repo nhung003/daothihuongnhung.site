@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+    background: var(--bg-color);
+    font-size: 100%;
+}
+:root{
+    --bg-color:#ffff;
+    --black:#151935;
+    --gray:#eee;
+    --primary-color: #1DC8E7;
+    --secondary-color:#044392;
+    --gray-light:#f7f9fb;
+    --linear: linear-gradient(45deg, #F62682 -4.45%, #6F5CF1 104.12%);
+    --linear2: linear-gradient(45deg, #1DC8E7 -4.45%, #044392 104.12%);
+    --linear-second: linear-gradient(to left bottom, var(--primary-color), var(--secondary-color));;
+}
+
+
+
+.heading{
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 2px;
+}

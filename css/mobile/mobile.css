@@ -1,0 +1,108 @@
+
+
+@media screen and (max-width: 1023.98px) {
+    header span{
+        position: relative;
+    }
+    header span::after{
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 3px;
+        background: var(--linear2);
+        top: 15px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .main .about-section .about-all{
+        display:flex;
+
+        flex-direction:column;
+    }
+    .main .about-section .about-all .avatar-about{
+        width: 80%;
+        padding: 0;
+        border-right: none;
+        padding-bottom: 20px;
+        border-bottom: 4px solid;
+    }
+    .main .about-section .about-all .infor{
+        width: 80%;
+        padding: 0;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 767.98px) {
+    header span{
+        position: relative;
+    }
+    header span::after{
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 3px;
+        background: var(--linear2);
+        top: 15px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .main .hero .name h3{
+        font-size: 24px;
+    }
+    .main .about-section .about-all{
+        display:flex;
+
+        flex-direction:column;
+    }
+    .main .about-section .about-all .avatar-about{
+        width: 80%;
+        padding: 0;
+        border-right: none;
+        padding-bottom: 20px;
+        border-bottom: 4px solid;
+    }
+    .main .hero .avatar img {
+        height: 130px;
+    }
+    .main .hero .name{
+        margin-top: 50px;
+    }
+
+    .main .about-section .about-all .infor{
+        width: 80%;
+        padding: 0;
+    }
+    .activity-list{
+        display:flex;
+        flex-direction:column;
+    }
+    .activity-list .activity-item{
+        width: 100%;
+        margin: 10px 0;
+    }
+    footer h1{
+        font-size: 110px;
+        line-height: 70px;
+    }
+
+    .list-skill .skill-item{
+        flex: 50%;
+        display: flex;
+        justify-content: center;
+        gap: 0 10px;
+        margin-bottom: 30px;
+    }
+    .list-skill .skill-item div{
+        width: 65px;
+    }
+
+    html{
+        font-family: 'Quicksand', sans-serif;
+        background: var(--bg-color);
+        font-size: 80%;
+    }
+  }
+  
